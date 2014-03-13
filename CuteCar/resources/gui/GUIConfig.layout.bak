@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUILayout>
+<Window Type="DefaultWindow" Name="GUIConfig" >
+	<Window Type="GUIConfig/StaticImage" Name="Meter" >
+		<Property Name="Alpha" Value="1.0" />
+		<Property Name="BackgroundEnabled" Value="false" />
+		<Property Name="FrameEnabled" Value="false" />
+		<Property Name="UnifiedAreaRect" Value="{{0.7451171875,0.0},{0.66796875,0.0},{0.9794921875,0.0},{0.98046875,0.0}}" />
+		<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />		
+		
+		<Window Type="GUIConfig/StaticText" Name="Speed" >				
+			<Property Name="Font" Value="arial-10" />
+			<Property Nmae="Font" Value="courbd-10"/>
+			<Property Name="BackgroundEnabled" Value="false" />
+			<Property Name="FrameEnabled" Value="false" />
+			<Property Name="Position" Value="x:0.51 y:0.50" />	
+			<Property Name="Size" Value="w:0.5 h:0.3" />
+		</Window>
+	</Window>
+	
+		<Window Type="GUIConfig/StaticImage" Name="Tools" >
+		<Property Name="Alpha" Value="1.0" />		
+		<Property Name="BackgroundEnabled" Value="false" />
+		<Property Name="FrameEnabled" Value="false" />
+		<Property Name="Image" Value="set:elements image:tools" />
+		<Property Name="UnifiedAreaRect" Value="{{0.0107421875,0.0},{0.0143229167,0.0},{0.2177734375,0.0},{0.1927083333,0.0}}" />
+		<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />
+		
+			<Window Type="GUIConfig/StaticImage" Name="Tool0" >
+				<Property Name="Alpha" Value="1.0" />					
+				<Property Name="FrameEnabled" Value="false" />
+				<Property Name="BackgroundEnabled" Value="false" />
+				<Property Name="UnifiedAreaRect" Value="{{0.0424528302,0.0},{0.0437956204,0.0},{0.3254716981,0.0},{0.4817518248,0.0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />
+			</Window>		
+			<Window Type="GUIConfig/StaticImage" Name="Tool1" >
+				<Property Name="Alpha" Value="1.0" />					
+				<Property Name="FrameEnabled" Value="false" />
+				<Property Name="BackgroundEnabled" Value="false" />
+				<Property Name="UnifiedAreaRect" Value="{{0.3490566038,0.0},{0.0437956204,0.0},{0.6320754717,0.0},{0.4817518248,0.0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />
+			</Window>		
+			<Window Type="GUIConfig/StaticImage" Name="Tool2" >
+				<Property Name="Alpha" Value="1.0" />	
+				<Property Name="FrameEnabled" Value="false" />
+				<Property Name="BackgroundEnabled" Value="false" />
+				<Property Name="UnifiedAreaRect" Value="{{0.6415094340,0.0},{0.0437956204,0.0},{0.9245283019,0.0},{0.4817518248,0.0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />
+			</Window>
+			
+			<Window Type="GUIConfig/StaticImage" Name="Tool3" >
+				<Property Name="Alpha" Value="1.0" />
+				<Property Name="FrameEnabled" Value="false" />
+				<Property Name="BackgroundEnabled" Value="false" />
+				<Property Name="UnifiedAreaRect" Value="{{0.0424528302,0.0},{0.5036496350,0.0},{0.3254716981,0.0},{0.9416058394,0.0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />
+			</Window>
+			<Window Type="GUIConfig/StaticImage" Name="Tool4" >
+				<Property Name="Alpha" Value="1.0" />
+				<Property Name="FrameEnabled" Value="false" />
+				<Property Name="BackgroundEnabled" Value="false" />
+				<Property Name="UnifiedAreaRect" Value="{{0.3490566038,0.0},{0.5036496350,0.0},{0.6320754717,0.0},{0.9416058394,0.0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />
+				</Window>
+			<Window Type="GUIConfig/StaticImage" Name="Tool5" >
+				<Property Name="Alpha" Value="1.0" />
+				<Property Name="FrameEnabled" Value="false" />
+				<Property Name="BackgroundEnabled" Value="false" />
+				<Property Name="UnifiedAreaRect" Value="{{0.6415094340,0.0},{0.5036496350,0.0},{0.9245283019,0.0},{0.9416058394,0.0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />
+			</Window>			
+		</Window>		
+		<Window Type="GUIConfig/StaticImage" Name="Info" >
+			<Property Name="Alpha" Value="1.0" />			
+			<Property Name="BackgroundEnabled" Value="false" />
+			<Property Name="FrameEnabled" Value="false" />		
+			<Property Name="UnifiedAreaRect" Value="{{0.7412109375,0.0},{0.01302083,0.0},{0.9814453125,0.0},{0.11458333,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />
+			
+			<Window Type="GUIConfig/StaticText" Name="Loop" >
+				<Property Name="BackgroundEnabled" Value="false" />
+				<Property Nmae="Font" Value="courbd-10"/>
+				<Property Name="FrameEnabled" Value="false" />							
+				<Property Name="Font" Value="arial-10" />
+				<Property Name="Position" Value="x:0.34 y:0.04" />	
+				<Property Name="Size" Value="w:0.5 h:0.5" />
+			</Window>			
+			<Window Type="GUIConfig/StaticText" Name="Time" >
+				<Property Name="BackgroundEnabled" Value="false" />
+				<Property Nmae="Font" Value="courbd-10"/>
+				<Property Name="FrameEnabled" Value="false" />							
+				<Property Name="Font" Value="arial-10" />	
+				<Property Name="Position" Value="x:0.34 y:0.50" />	
+				<Property Name="Size" Value="w:0.5 h:0.5" />
+				<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />
+			</Window>
+		</Window>
+		<Window Type="GUIConfig/StaticImage" Name="MiniMap" >
+			<Property Name="Alpha" Value="1.0" />			
+			<Property Name="BackgroundEnabled" Value="false" />
+			<Property Name="FrameEnabled" Value="false" />
+			<Property Name="Image" Value="set:elements image:map"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.0207421875,0.0},{0.65296875,0.0},{0.2648828125,250},{0.70296875,250}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />
+			<Window Type="GUIConfig/StaticImage" Name="self">
+				<Property Name="Alpha" Value="1.0" />			
+				<Property Name="BackgroundEnabled" Value="false" />
+				<Property Name="FrameEnabled" Value="false" />
+				<Property Name="Image" Value="set:elements image:self"/>
+				<Property Name="Size" Value="w:0.05 h:0.05" />
+			</Window>
+		</Window>
+		<Window Type="GUIConfig/StaticText" Name="Tip" >
+			<Property Name="Alpha" Value="1" />
+			<Property Name="Font" Value="courbd-12" />
+			<Property Name="BackgroundEnabled" Value="false" />
+			<Property Name="FrameEnabled" Value="false" />
+			<Property Name="UnifiedAreaRect" Value="{{0.25,0.0},{0.125,0.0},{1.0,0.0},{0.183,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />
+		</Window>		
+		<Window Type="GUIConfig/StaticImage" Name="CheckEsc">
+			<Property Name="Alpha" Value="1.0" />
+			<Property Name="BackgroundEnabled" Value="false" />
+			<Property Name="FrameEnabled" Value="false" />		
+			<Property Name="Image" Value="set:checkesc image:main" />	
+			<Property Name="Enable" Value="false" />
+			<Property Name="UnifiedAreaRect" Value="{{0.3046875,0.0},{0.3697917,0.0},{0.6953125,0.0},{0.6302083,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />
+			<Window Type="GUIConfig/Button" Name="Yes" >
+				<Property Name="Alpha" Value="1.0" />
+				<Property Name="BackgroundEnabled" Value="false" />
+				<Property Name="FrameEnabled" Value="false" />	
+				<Property Name="UnifiedAreaRect" Value="{{0.1,0.0},{0.64,0.0},{0.45,0.0},{0.88,0.0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+				<Property Name="Text" Value="Yes" />
+			</Window>
+			<Window Type="GUIConfig/Button" Name="No" >
+				<Property Name="Alpha" Value="1.0" />
+				<Property Name="BackgroundEnabled" Value="false" />
+				<Property Name="FrameEnabled" Value="false" />	
+				<Property Name="UnifiedAreaRect" Value="{{0.56,0.0},{0.64,0.0},{0.91,0.0},{0.88,0.0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+				<Property Name="Text" Value="No" />
+			</Window>	 
+		</Window>
+</Window>
+</GUILayout>

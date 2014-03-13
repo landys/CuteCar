@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Imageset Name="elements" Imagefile="elements.png" NativeHorzRes="502" NativeVertRes="394" AutoScaled="true">
+	<Image Name="infolap" XPos="0" YPos="0" Width="246" Height="78" />
+	<Image Name="infooil" XPos="0" YPos="324" Width="246" Height="78" />
+	<Image Name="tools" XPos="247" YPos="0" Width="212" Height="137" />	
+	<Image Name="map" XPos="0" YPos="79" Width="245" Height="245" />		
+	<Image Name="oils" XPos="246" YPos="137" Width="128" Height="128" />	
+	<Image Name="oilm" XPos="374" YPos="137" Width="128" Height="128" />	
+	<Image Name="oill" XPos="246" YPos="265" Width="128" Height="128" />	
+	<Image Name="acc" XPos="374" YPos="265" Width="128" Height="128" />		
+	<Image Name="null" XPos="502" YPos="137" Width="128" Height="128" />		
+	<Image Name="other" XPos="503" YPos="0" Width="23" Height="23" />	
+	<Image Name="self" XPos="503" YPos="115" Width="23" Height="23" />	
+</Imageset>

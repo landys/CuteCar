@@ -1,0 +1,136 @@
+ ---------------------------------------------------------------------------------------------------------------------------------- 
+|                                          Memory leak report for:  11/28/2006 21:44:27                                            |
+ ---------------------------------------------------------------------------------------------------------------------------------- 
+
+
+126 memory leaks found:
+
+Alloc.   Addr       Size       Addr       Size                        BreakOn BreakOn              
+Number Reported   Reported    Actual     Actual     Unused    Method  Dealloc Realloc Allocated by 
+------ ---------- ---------- ---------- ---------- ---------- -------- ------- ------- --------------------------------------------------- 
+000013 0x0126B1E8 0x00000034 0x0126B1D8 0x00000054 0x00000000 new         N       N    NxAllVehicle.cpp(28) NxAllVehicle::getSingleton
+000014 0x0126B728 0x00000004 0x0126B718 0x00000024 0x00000000 new         N       N    ??(0) ??
+019670 0x0B054278 0x000001DC 0x0B054268 0x000001FC 0x00000000 new         N       N    ??(0) ??
+019673 0x0B054578 0x00000030 0x0B054568 0x00000050 0x00000000 new         N       N    ogreceguirenderer.cpp(61) CEGUI::createQuadRenderOp
+019671 0x0B054828 0x00000054 0x0B054818 0x00000074 0x00000000 new         N       N    ??(0) ??
+019672 0x0B0548C8 0x0000000C 0x0B0548B8 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019683 0x0B054D98 0x00000034 0x0B054D88 0x00000054 0x00000000 new         N       N    ogred3d9hardwarebuffermanager.cpp(71) Ogre::D3D9HardwareBufferManager::create
+019685 0x0B054E78 0x00000004 0x0B054E68 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwareVer
+019687 0x0B054F38 0x00000030 0x0B054F28 0x00000050 0x00000000 new         N       N    ogreceguirenderer.cpp(61) CEGUI::createQuadRenderOp
+019697 0x0B055350 0x00000034 0x0B055340 0x00000054 0x00000000 new         N       N    ogred3d9hardwarebuffermanager.cpp(71) Ogre::D3D9HardwareBufferManager::create
+019699 0x0B055430 0x00000004 0x0B055420 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwareVer
+019701 0x0B0554F0 0x0000000C 0x0B0554E0 0x0000002C 0x00000000 new         N       N    ogreceguirenderer.cpp(691) CEGUI::OgreCEGUIRenderer::constructor_i
+019703 0x0B055598 0x000001A8 0x0B055588 0x000001C8 0x00000000 new         N       N    ??(0) ??
+019704 0x0B056C20 0x0000009C 0x0B056C10 0x000000BC 0x00000000 new         N       N    ogreceguirenderer.cpp(731) CEGUI::OgreCEGUIRenderer::createResourc
+019836 0x0B06C8F0 0x00000004 0x0B06C8E0 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+019776 0x0B06CAF0 0x0000000C 0x0B06CAE0 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019892 0x0B06D950 0x0000000C 0x0B06D940 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019805 0x0B06DA98 0x0000000C 0x0B06DA88 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019807 0x0B06DAF0 0x00000004 0x0B06DAE0 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+019864 0x0B06DB40 0x000002E4 0x0B06DB30 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+019881 0x0B06DF40 0x0000000C 0x0B06DF30 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019775 0x0B06DFB0 0x0000001C 0x0B06DFA0 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+019922 0x0B06E320 0x000002E4 0x0B06E310 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+019953 0x0B06EDA8 0x000002E4 0x0B06ED98 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+020022 0x0B06F310 0x0000001C 0x0B06F300 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+020005 0x0B071D60 0x00000004 0x0B071D50 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+019806 0x0B072318 0x000002E4 0x0B072308 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+019865 0x0B072828 0x00000004 0x0B072818 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+019921 0x0B074910 0x0000000C 0x0B074900 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019879 0x0B074B40 0x00000090 0x0B074B30 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+019891 0x0B074C20 0x0000001C 0x0B074C10 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+019833 0x0B074E40 0x0000001C 0x0B074E30 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+019852 0x0B075270 0x0000000C 0x0B075260 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019822 0x0B0752F8 0x00000004 0x0B0752E8 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+019938 0x0B0755A8 0x00000004 0x0B075598 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+019880 0x0B0758A8 0x00000004 0x0B075898 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+019835 0x0B075F68 0x000002E4 0x0B075F58 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+019821 0x0B076398 0x00000090 0x0B076388 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+019823 0x0B076478 0x0000000C 0x0B076468 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019981 0x0B077FC8 0x0000000C 0x0B077FB8 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019920 0x0B07A1B8 0x0000001C 0x0B07A1A8 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+019777 0x0B07A238 0x000002E4 0x0B07A228 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+019778 0x0B07A568 0x00000004 0x0B07A558 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+019980 0x0B07A888 0x0000001C 0x0B07A878 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+019792 0x0B07AA60 0x00000090 0x0B07AA50 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+019746 0x0B07AB58 0x0000001C 0x0B07AB48 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+019747 0x0B07ABC0 0x0000000C 0x0B07ABB0 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020232 0x0B07AC18 0x00000024 0x0B07AC08 0x00000044 0x00000000 new         N       N    ??(0) ??
+019748 0x0B07AC88 0x000002E4 0x0B07AC78 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+019749 0x0B07AFB8 0x00000004 0x0B07AFA8 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+019909 0x0B07BC80 0x00000004 0x0B07BC70 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+019910 0x0B07BCD0 0x0000000C 0x0B07BCC0 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019954 0x0B07BD28 0x00000004 0x0B07BD18 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+019951 0x0B07BF88 0x0000001C 0x0B07BF78 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+019952 0x0B07BFF0 0x0000000C 0x0B07BFE0 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019763 0x0B07C4E8 0x00000090 0x0B07C4D8 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+019764 0x0B07C5C8 0x00000004 0x0B07C5B8 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+019765 0x0B07C618 0x0000000C 0x0B07C608 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019923 0x0B07CDA0 0x00000004 0x0B07CD90 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+019893 0x0B07D9B0 0x000002E4 0x0B07D9A0 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+019968 0x0B082B90 0x00000090 0x0B082B80 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+019970 0x0B082C70 0x0000000C 0x0B082C60 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020065 0x0B082F00 0x0000000C 0x0B082EF0 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019908 0x0B08DEC8 0x00000090 0x0B08DEB8 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+019804 0x0B08DFB0 0x0000001C 0x0B08DFA0 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+019894 0x0B08E018 0x00000004 0x0B08E008 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+019793 0x0B08E068 0x00000004 0x0B08E058 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+019794 0x0B08E0B8 0x0000000C 0x0B08E0A8 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019969 0x0B08E4F8 0x00000004 0x0B08E4E8 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+019716 0x0B08E578 0x0000000C 0x0B08E568 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019715 0x0B08E650 0x0000001C 0x0B08E640 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+019717 0x0B08E6F0 0x000002E4 0x0B08E6E0 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+019718 0x0B08EA20 0x00000004 0x0B08EA10 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+019736 0x0B08ED40 0x00000004 0x0B08ED30 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+020106 0x0B093130 0x0000001C 0x0B093120 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+019850 0x0B0941D0 0x00000090 0x0B0941C0 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+019851 0x0B0942B0 0x00000004 0x0B0942A0 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+019937 0x0B0944D0 0x00000090 0x0B0944C0 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+019939 0x0B0945B0 0x0000000C 0x0B0945A0 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020023 0x0B0A4198 0x0000000C 0x0B0A4188 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020011 0x0B0A5290 0x00000090 0x0B0A5280 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+020012 0x0B0A5370 0x00000004 0x0B0A5360 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+020013 0x0B0A53C0 0x0000000C 0x0B0A53B0 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020046 0x0B0BC088 0x000002E4 0x0B0BC078 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+020054 0x0B0BC4D8 0x00000004 0x0B0BC4C8 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+020055 0x0B0BC528 0x0000000C 0x0B0BC518 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020064 0x0B0BD6D0 0x0000001C 0x0B0BD6C0 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+020047 0x0B0BD748 0x00000004 0x0B0BD738 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+020053 0x0B0C77A0 0x00000090 0x0B0C7790 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+020191 0x0B0C7970 0x0000000C 0x0B0C7960 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020107 0x0B0C7CE0 0x0000000C 0x0B0C7CD0 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020089 0x0B0CEFC0 0x00000004 0x0B0CEFB0 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+019863 0x0B0CF560 0x0000000C 0x0B0CF550 0x0000002C 0x00000000 new         N       N    ??(0) ??
+019735 0x0B0D00E0 0x00000090 0x0B0D00D0 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+019862 0x0B0D0AB0 0x0000001C 0x0B0D0AA0 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+019834 0x0B0D0B40 0x0000000C 0x0B0D0B30 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020088 0x0B0E04E0 0x000002E4 0x0B0E04D0 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+020148 0x0B0EC1E0 0x0000001C 0x0B0EC1D0 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+020138 0x0B0ECB68 0x00000004 0x0B0ECB58 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+020139 0x0B0ECF88 0x0000000C 0x0B0ECF78 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020190 0x0B0ED508 0x0000001C 0x0B0ED4F8 0x0000003C 0x00000000 new         N       N    ogreceguirenderer.cpp(360) CEGUI::OgreCEGUIRenderer::createTexture
+020172 0x0B0FDFF0 0x000002E4 0x0B0FDFE0 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+020173 0x0B0FF5C0 0x00000004 0x0B0FF5B0 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+020179 0x0B109380 0x00000090 0x0B109370 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+020181 0x0B109460 0x0000000C 0x0B109450 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020214 0x0B10C470 0x000002E4 0x0B10C460 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+020223 0x0B10C7A0 0x0000000C 0x0B10C790 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020149 0x0B10D340 0x0000000C 0x0B10D330 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020095 0x0B10D540 0x00000090 0x0B10D530 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+020096 0x0B10D620 0x00000004 0x0B10D610 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+020097 0x0B10D670 0x0000000C 0x0B10D660 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020130 0x0B10FBB0 0x000002E4 0x0B10FBA0 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+020137 0x0B10FEE0 0x00000090 0x0B10FED0 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+019737 0x0B110230 0x0000000C 0x0B110220 0x0000002C 0x00000000 new         N       N    ??(0) ??
+020196 0x0B113038 0x0000D6A8 0x0B113028 0x0000D6C8 0x00000000 new[]       N       N    ogreceguiresourceprovider.cpp(80) CEGUI::OgreCEGUIResourceProvider::loadR
+020215 0x0B12AF50 0x00000004 0x0B12AF40 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+020221 0x0B12C790 0x00000090 0x0B12C780 0x000000B0 0x00000000 new         N       N    ogred3d9texture.cpp(978) Ogre::D3D9Texture::_createSurfaceList
+020222 0x0B12C870 0x00000004 0x0B12C860 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix
+019986 0x0D870078 0x0005CAC4 0x0D870068 0x0005CAE4 0x00000000 new[]       N       N    ogreceguiresourceprovider.cpp(80) CEGUI::OgreCEGUIResourceProvider::loadR
+020004 0x0D8CDCC8 0x000002E4 0x0D8CDCB8 0x00000304 0x00000000 new         N       N    ogred3d9texturemanager.cpp(54) Ogre::D3D9TextureManager::createImpl
+020028 0x0D8CF028 0x0005CAC4 0x0D8CF018 0x0005CAE4 0x00000000 new[]       N       N    ogreceguiresourceprovider.cpp(80) CEGUI::OgreCEGUIResourceProvider::loadR
+020070 0x0D92C020 0x0005CAC4 0x0D92C010 0x0005CAE4 0x00000000 new[]       N       N    ogreceguiresourceprovider.cpp(80) CEGUI::OgreCEGUIResourceProvider::loadR
+020112 0x0D989018 0x0004C658 0x0D989008 0x0004C678 0x00000000 new[]       N       N    ogreceguiresourceprovider.cpp(80) CEGUI::OgreCEGUIResourceProvider::loadR
+020131 0x0D9D5CA8 0x00000004 0x0D9D5C98 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::Resource>::
+020154 0x0D9D6038 0x0004C658 0x0D9D6028 0x0004C678 0x00000000 new[]       N       N    ogreceguiresourceprovider.cpp(80) CEGUI::OgreCEGUIResourceProvider::loadR
+020180 0x0DA22F88 0x00000004 0x0DA22F78 0x00000024 0x00000000 new         N       N    ogresharedptr.h(55) Ogre::SharedPtr<class Ogre::HardwarePix

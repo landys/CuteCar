@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" ?>
+<Font Name="xingkai-14" Filename="simkai.ttf" Type="Dynamic" Size="14" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" AntiAlias="true">
+	<GlyphSet Glyphs="所有需要用到的中文字符集" />
+</Font>

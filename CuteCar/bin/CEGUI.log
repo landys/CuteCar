@@ -1,0 +1,153 @@
+13/03/2014 21:54:21 (InfL1)	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+13/03/2014 21:54:21 (InfL1)	+                     Crazy Eddie's GUI System - Event log                    +
+13/03/2014 21:54:21 (InfL1)	+                          (http://www.cegui.org.uk/)                         +
+13/03/2014 21:54:21 (InfL1)	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+13/03/2014 21:54:21 (InfL1)	CEGUI::Logger singleton created.
+13/03/2014 21:54:21 (InfL1)	---- Begining CEGUI System initialisation ----
+13/03/2014 21:54:21 (InfL1)	CEGUI::ImagesetManager singleton created
+13/03/2014 21:54:21 (InfL1)	CEGUI::FontManager singleton created.
+13/03/2014 21:54:21 (InfL1)	CEGUI::WindowFactoryManager singleton created
+13/03/2014 21:54:21 (InfL1)	CEGUI::WindowManager singleton created
+13/03/2014 21:54:21 (InfL1)	CEGUI::SchemeManager singleton created.
+13/03/2014 21:54:21 (InfL1)	CEGUI::MouseCursor singleton created.
+13/03/2014 21:54:21 (InfL1)	CEGUI::GlobalEventSet singleton created.
+13/03/2014 21:54:21 (InfL1)	CEGUI::WidgetLookManager singleton created.
+13/03/2014 21:54:21 (InfL1)	WindowFactory for 'DefaultWindow' windows added.
+13/03/2014 21:54:21 (InfL1)	WindowFactory for 'DragContainer' windows added.
+13/03/2014 21:54:21 (InfL1)	WindowFactory for 'ScrolledContainer' windows added.
+13/03/2014 21:54:21 (InfL1)	Window type alias named 'DefaultGUISheet' added for window type 'DefaultWindow'.
+13/03/2014 21:54:21 (InfL1)	CEGUI::System singleton created.
+13/03/2014 21:54:21 (InfL1)	---- CEGUI System initialisation completed ----
+13/03/2014 21:54:21 (InfL1)	---- Version 0.4.1 ----
+13/03/2014 21:54:21 (InfL1)	---- Renderer module is: CEGUI::OgreRenderer - Official Ogre based renderer module for CEGUI ----
+13/03/2014 21:54:21 (InfL1)	---- XML Parser module is: CEGUI::TinyXMLParser - Official tinyXML based parser module for CEGUI ----
+13/03/2014 21:54:21 (InfL1)	---- Scripting module is: None ----
+13/03/2014 21:54:21 (InfL1)	Attempting to load Scheme from file 'GUIConfigSkin.scheme'.
+13/03/2014 21:54:21 (InfL2)	Started creation of Scheme 'GUIConfigSkin' via XML file.
+13/03/2014 21:54:21 (InfL2)	Finished creation of Scheme 'GUIConfigSkin' via XML file.
+13/03/2014 21:54:21 (InfL2)	Loaded GUI scheme 'GUIConfigSkin' from data in file 'GUIConfigSkin.scheme'.
+13/03/2014 21:54:21 (InfL2)	---- Begining resource loading for GUI scheme 'GUIConfigSkin' ----
+13/03/2014 21:54:21 (InfL1)	Attempting to create an Imageset from the information specified in file 'GUIConfig.imageset'.
+13/03/2014 21:54:21 (InfL2)	Started creation of Imageset 'GUIConfig' via XML file.
+13/03/2014 21:54:21 (InfL2)	Finished creation of Imageset 'GUIConfig' via XML file.
+13/03/2014 21:54:21 (InfL1)	Attempting to create an Imageset from the information specified in file 'meter.imageset'.
+13/03/2014 21:54:21 (InfL2)	Started creation of Imageset 'meter' via XML file.
+13/03/2014 21:54:21 (InfL2)	Finished creation of Imageset 'meter' via XML file.
+13/03/2014 21:54:21 (InfL1)	Attempting to create an Imageset from the information specified in file 'digit.imageset'.
+13/03/2014 21:54:21 (InfL2)	Started creation of Imageset 'digit' via XML file.
+13/03/2014 21:54:21 (InfL2)	Finished creation of Imageset 'digit' via XML file.
+13/03/2014 21:54:21 (InfL1)	Attempting to create an Imageset from the information specified in file 'elements.imageset'.
+13/03/2014 21:54:22 (InfL2)	Started creation of Imageset 'elements' via XML file.
+13/03/2014 21:54:22 (InfL2)	Finished creation of Imageset 'elements' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create an Imageset from the information specified in file 'login.imageset'.
+13/03/2014 21:54:22 (InfL2)	Started creation of Imageset 'login' via XML file.
+13/03/2014 21:54:22 (InfL2)	Finished creation of Imageset 'login' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create an Imageset from the information specified in file 'help.imageset'.
+13/03/2014 21:54:22 (InfL2)	Started creation of Imageset 'help' via XML file.
+13/03/2014 21:54:22 (InfL2)	Finished creation of Imageset 'help' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create an Imageset from the information specified in file 'place.imageset'.
+13/03/2014 21:54:22 (InfL2)	Started creation of Imageset 'place' via XML file.
+13/03/2014 21:54:22 (InfL2)	Finished creation of Imageset 'place' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create an Imageset from the information specified in file 'over.imageset'.
+13/03/2014 21:54:22 (InfL2)	Started creation of Imageset 'over' via XML file.
+13/03/2014 21:54:22 (InfL2)	Finished creation of Imageset 'over' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create an Imageset from the information specified in file 'checkesc.imageset'.
+13/03/2014 21:54:22 (InfL2)	Started creation of Imageset 'checkesc' via XML file.
+13/03/2014 21:54:22 (InfL2)	Finished creation of Imageset 'checkesc' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create Font from the information specified in file 'tahoma-12.font'.
+13/03/2014 21:54:22 (InfL2)	Started creation of Font 'Tahoma-12' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create Imageset 'Tahoma-12_auto_glyph_images' with texture only.
+13/03/2014 21:54:22 (InfL2)	Font 'Tahoma-12' now has the following glyphs defined: ' !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.
+13/03/2014 21:54:22 (InfL2)	Finished creation of Font 'Tahoma-12' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create Font from the information specified in file 'tahoma-10.font'.
+13/03/2014 21:54:22 (InfL2)	Started creation of Font 'Tahoma-10' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create Imageset 'Tahoma-10_auto_glyph_images' with texture only.
+13/03/2014 21:54:22 (InfL2)	Font 'Tahoma-10' now has the following glyphs defined: ' !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.
+13/03/2014 21:54:22 (InfL2)	Finished creation of Font 'Tahoma-10' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create Font from the information specified in file 'tahoma-8.font'.
+13/03/2014 21:54:22 (InfL2)	Started creation of Font 'Tahoma-8' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create Imageset 'Tahoma-8_auto_glyph_images' with texture only.
+13/03/2014 21:54:22 (InfL2)	Font 'Tahoma-8' now has the following glyphs defined: ' !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.
+13/03/2014 21:54:22 (InfL2)	Finished creation of Font 'Tahoma-8' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create Font from the information specified in file 'courbd-10.font'.
+13/03/2014 21:54:22 (InfL2)	Started creation of Font 'courbd-10' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create Imageset 'courbd-10_auto_glyph_images' with texture only.
+13/03/2014 21:54:22 (InfL2)	Font 'courbd-10' now has the following glyphs defined: ' !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.
+13/03/2014 21:54:22 (InfL2)	Finished creation of Font 'courbd-10' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create Font from the information specified in file 'courbd-12.font'.
+13/03/2014 21:54:22 (InfL2)	Started creation of Font 'courbd-12' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create Imageset 'courbd-12_auto_glyph_images' with texture only.
+13/03/2014 21:54:22 (InfL2)	Font 'courbd-12' now has the following glyphs defined: ' !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.
+13/03/2014 21:54:22 (InfL2)	Finished creation of Font 'courbd-12' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create Font from the information specified in file 'grade.font'.
+13/03/2014 21:54:22 (InfL2)	Started creation of Font 'grade' via XML file.
+13/03/2014 21:54:22 (InfL1)	Attempting to create Imageset 'grade_auto_glyph_images' with texture only.
+13/03/2014 21:54:22 (InfL2)	Font 'grade' now has the following glyphs defined: ' !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.
+13/03/2014 21:54:22 (InfL2)	Finished creation of Font 'grade' via XML file.
+13/03/2014 21:54:22 (InfL1)	===== Falagard 'root' element: look and feel parsing begins =====
+13/03/2014 21:54:22 (InfL2)	---> Start of definition for widget look 'GUIConfig/VerticalScrollbarThumb'.
+13/03/2014 21:54:22 (InfL2)	---< End of definition for widget look 'GUIConfig/VerticalScrollbarThumb'.
+13/03/2014 21:54:22 (InfL2)	---> Start of definition for widget look 'GUIConfig/VerticalScrollbar'.
+13/03/2014 21:54:22 (InfL2)	---< End of definition for widget look 'GUIConfig/VerticalScrollbar'.
+13/03/2014 21:54:22 (InfL2)	---> Start of definition for widget look 'GUIConfig/HorizontalScrollbarThumb'.
+13/03/2014 21:54:22 (InfL2)	---< End of definition for widget look 'GUIConfig/HorizontalScrollbarThumb'.
+13/03/2014 21:54:22 (InfL2)	---> Start of definition for widget look 'GUIConfig/HorizontalScrollbar'.
+13/03/2014 21:54:22 (InfL2)	---< End of definition for widget look 'GUIConfig/HorizontalScrollbar'.
+13/03/2014 21:54:22 (InfL2)	---> Start of definition for widget look 'GUIConfig/ProgressBar'.
+13/03/2014 21:54:22 (InfL2)	---< End of definition for widget look 'GUIConfig/ProgressBar'.
+13/03/2014 21:54:22 (InfL2)	---> Start of definition for widget look 'GUIConfig/Button'.
+13/03/2014 21:54:22 (InfL2)	---< End of definition for widget look 'GUIConfig/Button'.
+13/03/2014 21:54:22 (InfL2)	---> Start of definition for widget look 'GUIConfig/Editbox'.
+13/03/2014 21:54:22 (InfL2)	---< End of definition for widget look 'GUIConfig/Editbox'.
+13/03/2014 21:54:22 (InfL2)	---> Start of definition for widget look 'GUIConfig/Listbox'.
+13/03/2014 21:54:22 (InfL2)	---< End of definition for widget look 'GUIConfig/Listbox'.
+13/03/2014 21:54:22 (InfL2)	---> Start of definition for widget look 'GUIConfig/StaticShared'.
+13/03/2014 21:54:22 (InfL2)	---< End of definition for widget look 'GUIConfig/StaticShared'.
+13/03/2014 21:54:22 (InfL2)	---> Start of definition for widget look 'GUIConfig/StaticImage'.
+13/03/2014 21:54:22 (InfL2)	---< End of definition for widget look 'GUIConfig/StaticImage'.
+13/03/2014 21:54:22 (InfL2)	---> Start of definition for widget look 'GUIConfig/StaticText'.
+13/03/2014 21:54:22 (InfL2)	---< End of definition for widget look 'GUIConfig/StaticText'.
+13/03/2014 21:54:22 (InfL1)	===== Look and feel parsing completed =====
+13/03/2014 21:54:22 (InfL1)	No window factories specified for module 'CEGUIFalagardBase' - adding all available factories...
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/Button' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/Checkbox' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/ComboDropList' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/Combobox' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/Editbox' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/FrameWindow' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/ListHeader' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/ListHeaderSegment' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/Listbox' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/Menubar' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/MenuItem' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/MultiColumnList' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/MultiLineEditbox' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/PopupMenu' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/ProgressBar' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/RadioButton' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/ScrollablePane' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/Scrollbar' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/Slider' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/Spinner' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/StaticImage' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/StaticText' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/SystemButton' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/TabButton' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/TabControl' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/TabPane' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/Thumb' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/Titlebar' windows added.
+13/03/2014 21:54:22 (InfL1)	WindowFactory for 'Falagard/Tooltip' windows added.
+13/03/2014 21:54:22 (InfL1)	Creating falagard mapping for type 'GUIConfig/FrameWindow' using base type 'Falagard/FrameWindow' and LookN'Feel 'GUIConfig/FrameWindow'.
+13/03/2014 21:54:22 (InfL1)	Creating falagard mapping for type 'GUIConfig/ProgressBar' using base type 'Falagard/ProgressBar' and LookN'Feel 'GUIConfig/ProgressBar'.
+13/03/2014 21:54:22 (InfL1)	Creating falagard mapping for type 'GUIConfig/Button' using base type 'Falagard/Button' and LookN'Feel 'GUIConfig/Button'.
+13/03/2014 21:54:22 (InfL1)	Creating falagard mapping for type 'GUIConfig/Editbox' using base type 'Falagard/Editbox' and LookN'Feel 'GUIConfig/Editbox'.
+13/03/2014 21:54:22 (InfL1)	Creating falagard mapping for type 'GUIConfig/Listbox' using base type 'Falagard/Listbox' and LookN'Feel 'GUIConfig/Listbox'.
+13/03/2014 21:54:22 (InfL1)	Creating falagard mapping for type 'GUIConfig/StaticImage' using base type 'Falagard/StaticImage' and LookN'Feel 'GUIConfig/StaticImage'.
+13/03/2014 21:54:22 (InfL1)	Creating falagard mapping for type 'GUIConfig/StaticText' using base type 'Falagard/StaticText' and LookN'Feel 'GUIConfig/StaticText'.
+13/03/2014 21:54:22 (InfL1)	Creating falagard mapping for type 'GUIConfig/HorizontalScrollbar' using base type 'Falagard/Scrollbar' and LookN'Feel 'GUIConfig/HorizontalScrollbar'.
+13/03/2014 21:54:22 (InfL1)	Creating falagard mapping for type 'GUIConfig/HorizontalScrollbarThumb' using base type 'Falagard/Thumb' and LookN'Feel 'GUIConfig/HorizontalScrollbarThumb'.
+13/03/2014 21:54:22 (InfL1)	Creating falagard mapping for type 'GUIConfig/VerticalScrollbar' using base type 'Falagard/Scrollbar' and LookN'Feel 'GUIConfig/VerticalScrollbar'.
+13/03/2014 21:54:22 (InfL1)	Creating falagard mapping for type 'GUIConfig/VerticalScrollbarThumb' using base type 'Falagard/Thumb' and LookN'Feel 'GUIConfig/VerticalScrollbarThumb'.
+13/03/2014 21:54:22 (InfL2)	---- Resource loading for GUI scheme 'GUIConfigSkin' completed ----

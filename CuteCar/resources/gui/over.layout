@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUILayout>
+<Window Type="DefaultGUISheet" Name="OverSheet">
+	<Window Type="GUIConfig/StaticImage" Name="Over">
+	<Property Name="BackgroundEnabled" Value="false" />
+	<Property Name="FrameEnabled" Value="false" />	
+	<Property Name="Image"	Value="set:over image:main"/>
+	<Property Name="UnifiedAreaRect" Value="{{0,0.0},{0,0.0},{1,0.0},{1,0.0}}" />
+	<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />		
+		<Window Type="GUIConfig/StaticText" Name="Grade" >
+			<Property Name="Font" Value="grade" />>
+			<Property Name="Alpha" Value="1.0" />
+			<Property Name="BackgroundEnabled" Value="false" />
+			<Property Name="FrameEnabled" Value="false" />			
+			<Property Name="UnifiedAreaRect" Value="{{0.05,0.0},{0.40,0.0},{1,0.0},{0.50,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+		</Window>
+		<Window Type="GUIConfig/Button" Name="ShowGrade" >
+			<Property Name="Alpha" Value="1.0" />
+			<Property Name="BackgroundEnabled" Value="false" />
+			<Property Name="FrameEnabled" Value="false" />	
+			<Property Name="UnifiedAreaRect" Value="{{0.048828125,0.0},{0.75390625,0.0},{0.29296875,0.0},{0.888020833,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+			<Property Name="Text" Value="Grade" />
+		</Window>
+		<Window Type="GUIConfig/Button" Name="Return" >
+			<Property Name="Alpha" Value="1.0" />
+			<Property Name="BackgroundEnabled" Value="false" />
+			<Property Name="FrameEnabled" Value="false" />	
+			<Property Name="UnifiedAreaRect" Value="{{0.3779296875,0.0},{0.75390625,0.0},{0.6220703125,0.0},{0.888020833,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+			<Property Name="Text" Value="Return" />
+		</Window>
+		<Window Type="GUIConfig/Button" Name="Quit" >
+			<Property Name="Alpha" Value="1.0" />
+			<Property Name="BackgroundEnabled" Value="false" />
+			<Property Name="FrameEnabled" Value="false" />	
+			<Property Name="UnifiedAreaRect" Value="{{0.70703125,0.0},{0.75390625,0.0},{0.951171875,0.0},{0.888020833,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+			<Property Name="Text" Value="Quit" />
+		</Window>		
+	</Window>
+</Window>
+</GUILayout>

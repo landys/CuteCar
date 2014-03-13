@@ -1,0 +1,57 @@
+23:34:30: Creating resource group General
+23:34:30: Creating resource group Internal
+23:34:30: Creating resource group Autodetect
+23:34:30: Registering ResourceManager for type Material
+23:34:30: Registering ResourceManager for type Mesh
+23:34:30: Registering ResourceManager for type Skeleton
+23:34:30: MovableObjectFactory for type 'ParticleSystem' registered.
+23:34:30: Loading library OgrePlatform_d.dll
+23:34:30: OverlayElementFactory for type Panel registered.
+23:34:30: OverlayElementFactory for type BorderPanel registered.
+23:34:30: OverlayElementFactory for type TextArea registered.
+23:34:30: Registering ResourceManager for type Font
+23:34:30: ArchiveFactory for archive type FileSystem registered.
+23:34:30: ArchiveFactory for archive type Zip registered.
+23:34:30: DevIL version: Developer's Image Library (DevIL) 1.6.7 Oct 28 2005
+23:34:30: DevIL image formats: bmp dib cut dcx dds gif hdr ico cur jpg jpe jpeg lif mdl mng jng pcx pic pix png pbm pgm pnm ppm psd pdd psp pxr sgi bw rgb rgba tga vda icb vst tif tiff wal xpm raw 
+23:34:30: Registering ResourceManager for type HighLevelGpuProgram
+23:34:30: Registering ResourceManager for type Compositor
+23:34:30: MovableObjectFactory for type 'Entity' registered.
+23:34:30: MovableObjectFactory for type 'Light' registered.
+23:34:30: MovableObjectFactory for type 'BillboardSet' registered.
+23:34:30: MovableObjectFactory for type 'ManualObject' registered.
+23:34:30: MovableObjectFactory for type 'BillboardChain' registered.
+23:34:30: MovableObjectFactory for type 'RibbonTrail' registered.
+23:34:30: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 8
+Function: ConfigFile::load
+Description: 'plugins.cfg' file not found!. 
+File: d:\ogredev\dagon\ogremain\src\ogreconfigfile.cpp
+Line: 79
+Stack unwinding: <<beginning of stack>>
+23:34:30: plugins.cfg not found, automatic plugin loading disabled.
+23:34:30: *-*-* OGRE Initialising
+23:34:30: *-*-* Version 1.2.0 (Dagon)
+23:34:30: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 8
+Function: ConfigFile::load
+Description: 'resources.cfg' file not found!. 
+File: d:\ogredev\dagon\ogremain\src\ogreconfigfile.cpp
+Line: 79
+Stack unwinding: <<beginning of stack>>
+23:34:36: *-*-* OGRE Shutdown
+23:34:36: Unregistering ResourceManager for type Compositor
+23:34:36: Unregistering ResourceManager for type Font
+23:34:36: Unregistering ResourceManager for type Skeleton
+23:34:36: Unregistering ResourceManager for type Mesh
+23:34:36: Unregistering ResourceManager for type HighLevelGpuProgram
+23:34:36: Unregistering ResourceManager for type Material
+23:34:36: Unloading library OgrePlatform_d.dll

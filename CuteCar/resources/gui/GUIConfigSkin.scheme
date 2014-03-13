@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<GUIScheme Name="GUIConfigSkin">
+	<Imageset Name="GUIConfig" Filename="GUIConfig.imageset" />
+	<Imageset Name="meter" Filename="meter.imageset" />
+	<Imageset Name="digit" Filename="digit.imageset" />	
+	<Imageset Name="elements" Filename="elements.imageset" />	
+	<Imageset Name="login" Filename="login.imageset" />
+	<Imageset Name="help" Filename="help.imageset" />
+	<Imageset Name="place" Filename="place.imageset" />
+	<Imageset Name="over" Filename="over.imageset" />
+	<Imageset Name="checkesc" Filename="checkesc.imageset" />
+	<Font Name="Tahoma-12" Filename="tahoma-12.font" />
+	<Font Name="Tahoma-10" Filename="tahoma-10.font" />
+	<Font Name="Tahoma-8" Filename="tahoma-8.font" />	
+	<Font Name="courbd-10" Filename="courbd-10.font" />
+	<Font Name="courbd-12" Filename="courbd-12.font" />	
+	<Font Name="grade" Filename="grade.font" />
+	<LookNFeel Filename="GUIConfig.looknfeel" />
+	<WindowSet Filename="CEGUIFalagardBase" />
+	<FalagardMapping WindowType="GUIConfig/FrameWindow" TargetType="Falagard/FrameWindow" LookNFeel="GUIConfig/FrameWindow" />
+	<FalagardMapping WindowType="GUIConfig/ProgressBar" TargetType="Falagard/ProgressBar" LookNFeel="GUIConfig/ProgressBar" />
+	<FalagardMapping WindowType="GUIConfig/Button" TargetType="Falagard/Button" LookNFeel="GUIConfig/Button" />
+	<FalagardMapping WindowType="GUIConfig/Editbox" TargetType="Falagard/Editbox" LookNFeel="GUIConfig/Editbox" />
+	<FalagardMapping WindowType="GUIConfig/Listbox" TargetType="Falagard/Listbox" LookNFeel="GUIConfig/Listbox" />
+	<FalagardMapping WindowType="GUIConfig/StaticImage" TargetType="Falagard/StaticImage" LookNFeel="GUIConfig/StaticImage" />
+	<FalagardMapping WindowType="GUIConfig/StaticText" TargetType="Falagard/StaticText" LookNFeel="GUIConfig/StaticText" />
+	<FalagardMapping WindowType="GUIConfig/HorizontalScrollbar" TargetType="Falagard/Scrollbar" LookNFeel="GUIConfig/HorizontalScrollbar" />	
+	<FalagardMapping WindowType="GUIConfig/HorizontalScrollbarThumb" TargetType="Falagard/Thumb" LookNFeel="GUIConfig/HorizontalScrollbarThumb" />
+	<FalagardMapping WindowType="GUIConfig/VerticalScrollbar" TargetType="Falagard/Scrollbar" LookNFeel="GUIConfig/VerticalScrollbar" />
+	<FalagardMapping WindowType="GUIConfig/VerticalScrollbarThumb" TargetType="Falagard/Thumb" LookNFeel="GUIConfig/VerticalScrollbarThumb" />
+</GUIScheme>

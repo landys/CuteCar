@@ -1,0 +1,41 @@
+material hummer/Metal_Chrome
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.0 0.0 0.0
+            diffuse 0.439216 0.439216 0.439216
+            specular 0.898039 0.898039 0.898039 15000.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+
+material hummer/chuitou
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.117647 0.117647 0.117647
+            diffuse 0.360784 0.360784 0.360784
+            specular 0.898039 0.898039 0.898039 500.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+
+material hummer/bazi
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.0941177 0.0627451 0.505882
+            diffuse 0.192157 0.388235 0.678431
+            specular 0.898039 0.898039 0.898039 500.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}

@@ -1,0 +1,1288 @@
+21:54:13: Creating resource group General
+21:54:13: Creating resource group Internal
+21:54:13: Creating resource group Autodetect
+21:54:13: Registering ResourceManager for type Material
+21:54:13: Registering ResourceManager for type Mesh
+21:54:13: Registering ResourceManager for type Skeleton
+21:54:13: MovableObjectFactory for type 'ParticleSystem' registered.
+21:54:13: Loading library OgrePlatform_d.dll
+21:54:13: OverlayElementFactory for type Panel registered.
+21:54:13: OverlayElementFactory for type BorderPanel registered.
+21:54:13: OverlayElementFactory for type TextArea registered.
+21:54:13: Registering ResourceManager for type Font
+21:54:13: ArchiveFactory for archive type FileSystem registered.
+21:54:13: ArchiveFactory for archive type Zip registered.
+21:54:13: DevIL version: Developer's Image Library (DevIL) 1.6.7 Oct 28 2005
+21:54:13: DevIL image formats: bmp dib cut dcx dds gif hdr ico cur jpg jpe jpeg lif mdl mng jng pcx pic pix png pbm pgm pnm ppm psd pdd psp pxr sgi bw rgb rgba tga vda icb vst tif tiff wal xpm raw 
+21:54:13: Registering ResourceManager for type HighLevelGpuProgram
+21:54:13: Registering ResourceManager for type Compositor
+21:54:13: MovableObjectFactory for type 'Entity' registered.
+21:54:13: MovableObjectFactory for type 'Light' registered.
+21:54:13: MovableObjectFactory for type 'BillboardSet' registered.
+21:54:13: MovableObjectFactory for type 'ManualObject' registered.
+21:54:13: MovableObjectFactory for type 'BillboardChain' registered.
+21:54:13: MovableObjectFactory for type 'RibbonTrail' registered.
+21:54:13: Loading library .\RenderSystem_Direct3D9
+21:54:13: D3D9 : Direct3D9 Rendering Subsystem created.
+21:54:13: D3D9: Driver Detection Starts
+21:54:13: D3D9: Driver Detection Ends
+21:54:13: Loading library .\RenderSystem_GL
+21:54:13: OpenGL Rendering Subsystem created.
+21:54:13: Loading library .\Plugin_OctreeSceneManager
+21:54:13: *-*-* OGRE Initialising
+21:54:13: *-*-* Version 1.2.0 (Dagon)
+21:54:13: Creating resource group Bootstrap
+21:54:13: Added resource location '../resources/OgreCore.zip' of type 'Zip' to resource group 'Bootstrap'
+21:54:13: Added resource location '../resources/materials/programs' of type 'FileSystem' to resource group 'General'
+21:54:13: Added resource location '../resources/materials/scripts' of type 'FileSystem' to resource group 'General'
+21:54:13: Added resource location '../resources/materials/textures' of type 'FileSystem' to resource group 'General'
+21:54:13: Added resource location '../resources/gui' of type 'FileSystem' to resource group 'General'
+21:54:13: Added resource location '../resources/map' of type 'FileSystem' to resource group 'General'
+21:54:13: Added resource location '../resources/che' of type 'FileSystem' to resource group 'General'
+21:54:13: Added resource location '../resources/skybox.zip' of type 'Zip' to resource group 'General'
+21:54:13: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+21:54:13: D3D9 : RenderSystem Option: Anti aliasing = None
+21:54:13: D3D9 : RenderSystem Option: Floating-point mode = Fastest
+21:54:13: D3D9 : RenderSystem Option: Full Screen = Yes
+21:54:13: D3D9 : RenderSystem Option: Rendering Device = RX600 Pro-128PCIE
+21:54:13: D3D9 : RenderSystem Option: VSync = No
+21:54:13: D3D9 : RenderSystem Option: Video Mode = 1024 x 768 @ 32-bit colour
+21:54:19: D3D9 : Shutting down cleanly.
+21:54:19: *** Starting Win32GL Subsystem ***
+21:54:19: GLRenderSystem::createRenderWindow "OGRE Render Window", 1024x768 fullscreen  miscParams: FSAA=2 colourDepth=32 vsync=false 
+21:54:21: Created Win32Window 'OGRE Render Window' : 1024x768, 32bpp
+21:54:21: GL_VERSION = 3.3.10057 Compatibility Profile Context
+21:54:21: GL_VENDOR = ATI Technologies Inc.
+21:54:21: GL_RENDERER = ATI Mobility Radeon HD 3400 Series 
+21:54:21: GL_EXTENSIONS = GL_AMDX_debug_output GL_AMD_conservative_depth GL_AMD_debug_output GL_AMD_draw_buffers_blend GL_AMD_name_gen_delete GL_AMD_performance_monitor GL_AMD_sample_positions GL_AMD_shader_stencil_export GL_ARB_blend_func_extended GL_ARB_color_buffer_float GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_provoking_vertex GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_bit_encoding GL_ARB_shader_objects GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_shadow_ambient GL_ARB_sync GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_compression GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_snorm GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_envmap_bumpmap GL_ATI_fragment_shader GL_ATI_meminfo GL_ATI_separate_stencil GL_ATI_texture_compression_3dc GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_copy_buffer GL_EXT_copy_texture GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_histogram GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_EXT_subtexture GL_EXT_texgen_reflection GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_buffer_object_rgb32 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_explicit_multisample GL_NV_float_buffer GL_NV_half_float GL_NV_primitive_restart GL_NV_texgen_reflection GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays GL_WIN_swap_hint WGL_EXT_swap_control
+21:54:21: Supported WGL extensions: WGL_ARB_extensions_string WGL_ARB_pixel_format WGL_ATI_pixel_format_float WGL_ARB_pixel_format_float WGL_ARB_multisample WGL_EXT_swap_control WGL_ARB_pbuffer WGL_ARB_render_texture WGL_ARB_make_current_read WGL_EXT_extensions_string WGL_ARB_buffer_region WGL_EXT_framebuffer_sRGB WGL_ATI_render_texture_rectangle WGL_EXT_pixel_format_packed_float WGL_I3D_genlock WGL_NV_swap_group WGL_ARB_create_context WGL_AMD_gpu_association WGL_AMDX_gpu_association WGL_ARB_create_context_profile WGL_NV_float_buffer
+21:54:21: ***************************
+*** GL Renderer Started ***
+***************************
+21:54:21: Registering ResourceManager for type GpuProgram
+21:54:21: GLSL support detected
+21:54:21: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
+21:54:21: FBO PF_UNKNOWN depth/stencil support: D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_L8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_L16 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_A4L4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_BYTE_LA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_B5G6R5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 D24S8 
+21:54:21: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 D24S8 
+21:54:21: FBO PF_A2R10G10B10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 D24S8 
+21:54:21: FBO PF_A2B10G10R10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 D24S8 
+21:54:21: FBO PF_FLOAT16_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_FLOAT32_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 D24S8 
+21:54:21: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 D24S8 
+21:54:21: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_FLOAT16_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: FBO PF_FLOAT32_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 
+21:54:21: [GL] : Valid FBO targets PF_UNKNOWN PF_L8 PF_L16 PF_A8 PF_A4L4 PF_BYTE_LA PF_R5G6B5 PF_B5G6R5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R 
+21:54:21: RenderSystem capabilities
+21:54:21: -------------------------
+21:54:21:  * Hardware generation of mipmaps: yes
+21:54:21:  * Texture blending: yes
+21:54:21:  * Anisotropic texture filtering: yes
+21:54:21:  * Dot product texture operation: yes
+21:54:21:  * Cube mapping: yes
+21:54:21:  * Hardware stencil buffer: yes
+21:54:21:    - Stencil depth: 8
+21:54:21:    - Two sided stencil support: yes
+21:54:21:    - Wrap stencil values: yes
+21:54:21:  * Hardware vertex / index buffers: yes
+21:54:21:  * Vertex programs: yes
+21:54:21:    - Max vertex program version: arbvp1
+21:54:21:  * Fragment programs: yes
+21:54:21:    - Max fragment program version: arbfp1
+21:54:21:  * Texture Compression: yes
+21:54:21:    - DXT: yes
+21:54:21:    - VTC: no
+21:54:21:  * Scissor Rectangle: yes
+21:54:21:  * Hardware Occlusion Query: no
+21:54:21:  * User clip planes: yes
+21:54:21:  * VET_UBYTE4 vertex element type: yes
+21:54:21:  * Infinite far plane projection: yes
+21:54:21:  * Hardware render-to-texture: yes
+21:54:21:  * Floating point textures: yes
+21:54:21:  * Non-power-of-two textures: yes
+21:54:21:  * Volume textures: yes
+21:54:21:  * Multiple Render Targets: 8
+21:54:21:  * Max Point Size: 8192
+21:54:21: Registering ResourceManager for type Texture
+21:54:21: Using FSAA from GL_ARB_multisample extension.
+21:54:21: ResourceBackgroundQueue - threading disabled
+21:54:21: Particle Renderer Type 'billboard' registered
+21:54:21: TerrainSceneManager: Registered a new PageSource for type Heightmap
+21:54:21: Creating viewport on target 'OGRE Render Window', rendering from camera 'MyCam', relative dimensions L: 0.00 T: 0.00 W: 1.00 H: 1.00 ZOrder: 0
+21:54:21: Viewport for camera 'MyCam', actual dimensions L: 0 T: 0 W: 1024 H: 768
+21:54:21: Parsing scripts for resource group Autodetect
+21:54:21: Finished parsing scripts for resource group Autodetect
+21:54:21: Parsing scripts for resource group Bootstrap
+21:54:21: Parsing script OgreCore.material
+21:54:21: Parsing script OgreProfiler.material
+21:54:21: Parsing script Ogre.fontdef
+21:54:21: Parsing script OgreDebugPanel.overlay
+21:54:21: Texture: New_Ogre_Border_Center.png: Loading 1 faces(PF_A8B8G8R8,256x128x1) with 8 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+21:54:21: Texture: New_Ogre_Border.png: Loading 1 faces(PF_A8B8G8R8,256x256x1) with 8 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+21:54:21: Texture: New_Ogre_Border_Break.png: Loading 1 faces(PF_A8B8G8R8,32x32x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+21:54:21: Font TrebuchetMSBoldusing texture size 512x512
+21:54:21: Info: Freetype returned null for character 160 in font TrebuchetMSBold
+21:54:21: Texture: TrebuchetMSBoldTexture: Loading 1 faces(PF_BYTE_LA,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_BYTE_LA,512x512x1.
+21:54:21: Texture: ogretext.png: Loading 1 faces(PF_A8B8G8R8,256x128x1) with 8 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+21:54:21: Parsing script OgreLoadingPanel.overlay
+21:54:21: Finished parsing scripts for resource group Bootstrap
+21:54:21: Parsing scripts for resource group General
+21:54:21: Parsing script Examples.program
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 13 of Examples.program: Could not create GPU program 'Ogre/BasicVertexPrograms/AmbientOneTexture', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 22 of Examples.program: Could not create GPU program 'Ogre/HardwareSkinningOneWeightShadowCaster', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 30 of Examples.program: Could not create GPU program 'Ogre/HardwareSkinningOneWeight', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 38 of Examples.program: Could not create GPU program 'Ogre/HardwareSkinningFourWeights', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 52 of Examples.program: Could not create GPU program 'Ogre/HardwareMorphAnimation', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 66 of Examples.program: Could not create GPU program 'Ogre/HardwarePoseAnimation', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Parsing script StdQuad_vp.program
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 11 of StdQuad_vp.program: Could not create GPU program 'Ogre/Compositor/StdQuad_vp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 23 of StdQuad_vp.program: Could not create GPU program 'Ogre/Compositor/StdQuad_Tex2_vp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 35 of StdQuad_vp.program: Could not create GPU program 'Ogre/Compositor/StdQuad_Tex2a_vp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 47 of StdQuad_vp.program: Could not create GPU program 'Ogre/Compositor/StdQuad_Tex3_vp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 59 of StdQuad_vp.program: Could not create GPU program 'Ogre/Compositor/StdQuad_Tex4_vp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Parsing script BlackAndWhite.material
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 6 of BlackAndWhite.material: Could not create GPU program 'Ogre/Compositor/B&W_FP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Ogre/Compositor/BlackAndWhite at line 17 of BlackAndWhite.material: Invalid vertex_program_ref entry - vertex program Ogre/Compositor/StdQuad_vp has not been defined.
+21:54:21: Error in material Ogre/Compositor/BlackAndWhite at line 21 of BlackAndWhite.material: Invalid fragment_program_ref entry - fragment program Ogre/Compositor/B&W_FP has not been defined.
+21:54:21: Parsing script Bloom.material
+21:54:21: Blur_ps_glsl : GLSL compiled Fragment shader was successfully compiled to run on hardware.
+
+21:54:21: Blur0_vs_glsl : GLSL compiled Vertex shader was successfully compiled to run on hardware.
+
+
+21:54:21: Blur1_vs_glsl : GLSL compiled Vertex shader was successfully compiled to run on hardware.
+
+
+21:54:21: Parsing script DOF.material
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 6 of DOF.material: Could not create GPU program 'DOF_Blur_ps', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 13 of DOF.material: Could not create GPU program 'DOF_Blend_ps', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Ogre/Compositor/DOF_Blur0 at line 28 of DOF.material: Invalid fragment_program_ref entry - fragment program DOF_Blur_ps has not been defined.
+21:54:21: Error in material Ogre/Compositor/DOF_Blur0 at line 32 of DOF.material: Invalid vertex_program_ref entry - vertex program Ogre/Compositor/StdQuad_Tex2a_vp has not been defined.
+21:54:21: Error in material Ogre/Compositor/DOF_Blur1 at line 55 of DOF.material: Invalid fragment_program_ref entry - fragment program  has not been defined.
+21:54:21: Error in material Ogre/Compositor/DOF_Blend at line 70 of DOF.material: Invalid fragment_program_ref entry - fragment program DOF_Blend_ps has not been defined.
+21:54:21: Error in material Ogre/Compositor/DOF_Blend at line 75 of DOF.material: Invalid vertex_program_ref entry - vertex program Ogre/Compositor/StdQuad_Tex2a_vp has not been defined.
+21:54:21: Parsing script Embossed.material
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 6 of Embossed.material: Could not create GPU program 'Ogre/Compositor/Embossed_FP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Ogre/Compositor/Embossed at line 17 of Embossed.material: Invalid vertex_program_ref entry - vertex program Ogre/Compositor/StdQuad_vp has not been defined.
+21:54:21: Error in material Ogre/Compositor/Embossed at line 21 of Embossed.material: Invalid fragment_program_ref entry - fragment program Ogre/Compositor/Embossed_FP has not been defined.
+21:54:21: Parsing script Example-DynTex.material
+21:54:21: Parsing script Example-Water.material
+21:54:21: Parsing script Example.material
+21:54:21: Error in material Examples/Robot at line 617 of Example.material: Invalid vertex_program_ref entry - vertex program Ogre/HardwareSkinningOneWeight has not been defined.
+21:54:21: Error in material Examples/Robot at line 629 of Example.material: Invalid shadow_caster_vertex_program_ref entry - vertex program Ogre/HardwareSkinningOneWeightShadowCaster has not been defined.
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 677 of Example.material: Could not create GPU program 'Examples/GrassWaverVp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Examples/GrassBlades at line 686 of Example.material: Invalid vertex_program_ref entry - vertex program Examples/GrassWaverVp has not been defined.
+21:54:21: Error in material Examples/HardwareMorphAnimation at line 764 of Example.material: Invalid vertex_program_ref entry - vertex program Ogre/HardwareMorphAnimation has not been defined.
+21:54:21: Error in material Examples/HardwarePoseAnimation at line 799 of Example.material: Invalid vertex_program_ref entry - vertex program Ogre/HardwarePoseAnimation has not been defined.
+21:54:21: Parsing script Examples-Advanced.material
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 17 of Examples-Advanced.material: Could not create GPU program 'Ogre/CelShadingVP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 24 of Examples-Advanced.material: Could not create GPU program 'Ogre/CelShadingFP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Examples/CelShading at line 33 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/CelShadingVP has not been defined.
+21:54:21: Error in material Examples/CelShading at line 38 of Examples-Advanced.material: Invalid fragment_program_ref entry - fragment program Ogre/CelShadingFP has not been defined.
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 82 of Examples-Advanced.material: Could not create GPU program 'Examples/BumpMapVP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 90 of Examples-Advanced.material: Could not create GPU program 'Examples/BumpMapFP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 98 of Examples-Advanced.material: Could not create GPU program 'Examples/BumpMapVPShadowRcv', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 105 of Examples-Advanced.material: Could not create GPU program 'Examples/BumpMapFPShadowRcv', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 114 of Examples-Advanced.material: Could not create GPU program 'Examples/BumpMapVPSpecular', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 122 of Examples-Advanced.material: Could not create GPU program 'Examples/BumpMapFPSpecular', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Examples/BumpMapping/SingleLight at line 137 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/BumpMapVP has not been defined.
+21:54:21: Error in material Examples/BumpMapping/SingleLight at line 144 of Examples-Advanced.material: Invalid fragment_program_ref entry - fragment program Examples/BumpMapFP has not been defined.
+21:54:21: Error in material Examples/BumpMapping/SingleLight at line 179 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/BumpMapVP has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLight at line 229 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLight at line 251 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/BumpMapVP has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLight at line 258 of Examples-Advanced.material: Invalid fragment_program_ref entry - fragment program Examples/BumpMapFP has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLight at line 288 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLight at line 319 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLight at line 340 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/BumpMapVP has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLight at line 371 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLightSpecular at line 407 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLightSpecular at line 428 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/BumpMapVPSpecular has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLightSpecular at line 436 of Examples-Advanced.material: Invalid fragment_program_ref entry - fragment program Examples/BumpMapFPSpecular has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLightSpecular at line 472 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLightSpecular at line 503 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLightSpecular at line 524 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/BumpMapVP has not been defined.
+21:54:21: Error in material Examples/BumpMapping/MultiLightSpecular at line 555 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 581 of Examples-Advanced.material: Could not create GPU program 'Examples/TexProjectionVP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 589 of Examples-Advanced.material: Could not create GPU program 'Examples/TexProjectionFP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Examples/GeneralTexProjection at line 598 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/TexProjectionVP has not been defined.
+21:54:21: Error in material Examples/GeneralTexProjection at line 606 of Examples-Advanced.material: Invalid fragment_program_ref entry - fragment program Examples/TexProjectionFP has not been defined.
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 632 of Examples-Advanced.material: Could not create GPU program 'Examples/FresnelRefractReflectVP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 640 of Examples-Advanced.material: Could not create GPU program 'Examples/FresnelRefractReflectFP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Examples/FresnelReflectionRefraction at line 658 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/FresnelRefractReflectVP has not been defined.
+21:54:21: Error in material Examples/FresnelReflectionRefraction at line 671 of Examples-Advanced.material: Invalid fragment_program_ref entry - fragment program Examples/FresnelRefractReflectFP has not been defined.
+21:54:21: Error in material Examples/FresnelReflectionRefraction at line 712 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/FresnelRefractReflectVP has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMapped at line 785 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMapped at line 807 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/BumpMapVP has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMapped at line 814 of Examples-Advanced.material: Invalid fragment_program_ref entry - fragment program Examples/BumpMapFP has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMapped at line 820 of Examples-Advanced.material: Invalid shadow_receiver_vertex_program_ref entry - vertex program Examples/BumpMapVPShadowRcv has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMapped at line 828 of Examples-Advanced.material: Invalid shadow_receiver_fragment_program_ref entry - fragment program Examples/BumpMapFPShadowRcv has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMapped at line 858 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMapped at line 889 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMapped at line 910 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/BumpMapVP has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMapped at line 941 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMappedSpecular at line 998 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMappedSpecular at line 1019 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/BumpMapVPSpecular has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMappedSpecular at line 1027 of Examples-Advanced.material: Invalid fragment_program_ref entry - fragment program Examples/BumpMapFPSpecular has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMappedSpecular at line 1063 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMappedSpecular at line 1094 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMappedSpecular at line 1115 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Examples/BumpMapVP has not been defined.
+21:54:21: Error in material Examples/Athene/NormalMappedSpecular at line 1146 of Examples-Advanced.material: Invalid vertex_program_ref entry - vertex program Ogre/BasicVertexPrograms/AmbientOneTexture has not been defined.
+21:54:21: Parsing script facial.material
+21:54:21: Parsing script Glass.material
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 6 of Glass.material: Could not create GPU program 'Ogre/Compositor/GlassFP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Ogre/Compositor/GlassPass at line 16 of Glass.material: Invalid vertex_program_ref entry - vertex program Ogre/Compositor/StdQuad_vp has not been defined.
+21:54:21: Error in material Ogre/Compositor/GlassPass at line 20 of Glass.material: Invalid fragment_program_ref entry - fragment program Ogre/Compositor/GlassFP has not been defined.
+21:54:21: Parsing script HeatVision.material
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 11 of HeatVision.material: Could not create GPU program 'Fury/HeatVision/HeatCaster_vp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 18 of HeatVision.material: Could not create GPU program 'Fury/HeatVision/HeatCaster_fp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Fury/HeatVision/HeatCaster at line 26 of HeatVision.material: Invalid vertex_program_ref entry - vertex program Fury/HeatVision/HeatCaster_vp has not been defined.
+21:54:21: Error in material Fury/HeatVision/HeatCaster at line 32 of HeatVision.material: Invalid fragment_program_ref entry - fragment program Fury/HeatVision/HeatCaster_fp has not been defined.
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 49 of HeatVision.material: Could not create GPU program 'Fury/HeatVision/ColdCaster_vp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 56 of HeatVision.material: Could not create GPU program 'Fury/HeatVision/ColdCaster_fp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Fury/HeatVision/ColdCaster at line 64 of HeatVision.material: Invalid vertex_program_ref entry - vertex program Fury/HeatVision/ColdCaster_vp has not been defined.
+21:54:21: Error in material Fury/HeatVision/ColdCaster at line 70 of HeatVision.material: Invalid fragment_program_ref entry - fragment program Fury/HeatVision/ColdCaster_fp has not been defined.
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 92 of HeatVision.material: Could not create GPU program 'Fury/HeatVision/LightToHeat_vp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 99 of HeatVision.material: Could not create GPU program 'Fury/HeatVision/LightToHeat_fp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Fury/HeatVision/LightToHeat at line 112 of HeatVision.material: Invalid vertex_program_ref entry - vertex program Fury/HeatVision/LightToHeat_vp has not been defined.
+21:54:21: Error in material Fury/HeatVision/LightToHeat at line 116 of HeatVision.material: Invalid fragment_program_ref entry - fragment program Fury/HeatVision/LightToHeat_fp has not been defined.
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 170 of HeatVision.material: Could not create GPU program 'Fury/HeatVision/Blur_vp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 177 of HeatVision.material: Could not create GPU program 'Fury/HeatVision/Blur_fp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Fury/HeatVision/Blur at line 190 of HeatVision.material: Invalid vertex_program_ref entry - vertex program Fury/HeatVision/Blur_vp has not been defined.
+21:54:21: Error in material Fury/HeatVision/Blur at line 194 of HeatVision.material: Invalid fragment_program_ref entry - fragment program Fury/HeatVision/Blur_fp has not been defined.
+21:54:21: Parsing script Hurt.material
+21:54:21: Parsing script MotionBlur.material
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 11 of MotionBlur.material: Could not create GPU program 'Ogre/Compositor/Combine_fp', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Ogre/Compositor/Combine at line 21 of MotionBlur.material: Invalid fragment_program_ref entry - fragment program Ogre/Compositor/Combine_fp has not been defined.
+21:54:21: Error in material Ogre/Compositor/Combine at line 25 of MotionBlur.material: Invalid vertex_program_ref entry - vertex program Ogre/Compositor/StdQuad_vp has not been defined.
+21:54:21: Parsing script Ocean.material
+21:54:21: GLSL/OceanVS : GLSL compiled Vertex shader was successfully compiled to run on hardware.
+
+
+21:54:21: GLSL/OceanFS : GLSL compiled Fragment shader was successfully compiled to run on hardware.
+
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 138 of Ocean.material: Could not create GPU program 'Cg/OceanVS', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 146 of Ocean.material: Could not create GPU program 'Cg/OceanFS', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material OceanCg at line 154 of Ocean.material: Invalid vertex_program_ref entry - vertex program Cg/OceanVS has not been defined.
+21:54:21: Error in material OceanCg at line 160 of Ocean.material: Invalid fragment_program_ref entry - fragment program Cg/OceanFS has not been defined.
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 199 of Ocean.material: Could not create GPU program 'Cg/Ocean2VS', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 207 of Ocean.material: Could not create GPU program 'Cg/Ocean2FS', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Ocean2_Cg at line 215 of Ocean.material: Invalid vertex_program_ref entry - vertex program Cg/Ocean2VS has not been defined.
+21:54:21: Error in material Ocean2_Cg at line 225 of Ocean.material: Invalid fragment_program_ref entry - fragment program Cg/Ocean2FS has not been defined.
+21:54:21: GLSL/Ocean2VS : GLSL compiled Vertex shader was successfully compiled to run on hardware.
+
+
+21:54:21: GLSL/Ocean2FS : GLSL compiled Fragment shader was successfully compiled to run on hardware.
+
+21:54:21: Parsing script OffsetMapping.material
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 7 of OffsetMapping.material: Could not create GPU program 'Examples/OffsetMappingVP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 15 of OffsetMapping.material: Could not create GPU program 'Examples/OffsetMappingFP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Examples/OffsetMapping/Specular at line 39 of OffsetMapping.material: Invalid vertex_program_ref entry - vertex program Examples/OffsetMappingVP has not been defined.
+21:54:21: Error in material Examples/OffsetMapping/Specular at line 47 of OffsetMapping.material: Invalid fragment_program_ref entry - fragment program Examples/OffsetMappingFP has not been defined.
+21:54:21: Error in material Examples/OffsetMapping/Specular at line 82 of OffsetMapping.material: Invalid vertex_program_ref entry - vertex program Examples/OffsetMappingVP has not been defined.
+21:54:21: Parsing script Ogre.material
+21:54:21: Parsing script OldTV.material
+21:54:21: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error at line 6 of OldTV.material: Could not create GPU program 'Ogre/Compositor/OldTV_FP', error reported was: An exception has been thrown!
+
+-----------------------------------
+Details:
+-----------------------------------
+Error #: 7
+Function: HighLevelGpuProgramManager::getFactory
+Description: Cannot find factory for language 'cg'. 
+File: d:\ogredev\dagon\ogremain\src\ogrehighlevelgpuprogrammanager.cpp
+Line: 72
+Stack unwinding: <<beginning of stack>>
+21:54:21: Error in material Ogre/Compositor/OldTV at line 17 of OldTV.material: Invalid vertex_program_ref entry - vertex program Ogre/Compositor/StdQuad_Tex2a_vp has not been defined.
+21:54:21: Error in material Ogre/Compositor/OldTV at line 21 of OldTV.material: Invalid fragment_program_ref entry - fragment program Ogre/Compositor/OldTV_FP has not been defined.
+21:54:21: Parsing script RZR-002.material
+21:54:21: Parsing script smoke.material
+21:54:21: Parsing script ax.material
+21:54:21: Parsing script brush.material
+21:54:21: Parsing script hummer.material
+21:54:21: Parsing script lubiao.material
+21:54:21: Parsing script MyTerrain.material
+21:54:21: Parsing script pliers.material
+21:54:21: Parsing script cheti.material
+21:54:21: Parsing script lunzi.material
+21:54:21: Parsing script Examples.compositor
+21:54:21: Finished parsing scripts for resource group General
+21:54:21: Parsing scripts for resource group Internal
+21:54:21: Finished parsing scripts for resource group Internal
+21:54:21: Win32Input8: DirectInput Activation Starts
+21:54:21: Win32Input8: Establishing keyboard input.
+21:54:21: Win32Input8: Keyboard input established.
+21:54:21: Win32Input8: Establishing mouse input.
+21:54:21: Win32Input8: Mouse input established.
+21:54:21: Win32Input8: DirectInput OK.
+21:54:21: Texture: GUIConfig.tga: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+21:54:21: Texture: meter.png: Loading 1 faces(PF_A8B8G8R8,1920x1200x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1920x1200x1.
+21:54:21: Texture: digit.png: Loading 1 faces(PF_A8B8G8R8,905x69x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,905x69x1.
+21:54:22: Texture: elements.png: Loading 1 faces(PF_A8B8G8R8,630x402x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,630x402x1.
+21:54:22: Texture: login.png: Loading 1 faces(PF_A8B8G8R8,1024x768x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+21:54:22: Texture: help.png: Loading 1 faces(PF_A8B8G8R8,1024x768x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+21:54:22: Texture: place.png: Loading 1 faces(PF_A8B8G8R8,1024x768x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+21:54:22: Texture: over.png: Loading 1 faces(PF_B8G8R8,1024x768x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x768x1.
+21:54:22: Texture: checkesc.png: Loading 1 faces(PF_A8B8G8R8,400x200x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,400x200x1.
+21:54:22: Texture: _cegui_ogre_0: Loading 1 faces(PF_A8R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+21:54:22: Texture: _cegui_ogre_1: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+21:54:22: Texture: _cegui_ogre_2: Loading 1 faces(PF_A8R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+21:54:22: Texture: _cegui_ogre_3: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+21:54:22: Texture: _cegui_ogre_4: Loading 1 faces(PF_A8R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+21:54:22: Texture: _cegui_ogre_5: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+21:54:22: Texture: _cegui_ogre_6: Loading 1 faces(PF_A8R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+21:54:22: Texture: _cegui_ogre_7: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+21:54:22: Texture: _cegui_ogre_8: Loading 1 faces(PF_A8R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+21:54:22: Texture: _cegui_ogre_9: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+21:54:22: Texture: _cegui_ogre_10: Loading 1 faces(PF_A8R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+21:54:22: Texture: _cegui_ogre_11: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.

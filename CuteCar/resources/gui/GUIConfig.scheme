@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<GUIScheme Name="GUIConfig">
+	<Imageset Name="GUIConfig" Filename="GUIConfig.imageset" />
+	<Imageset Name="meter" Filename="meter.imageset" />
+	<Imageset Name="digit" Filename="digit.imageset" />
+	<Imageset Name="elements" Filename="elements.imageset" />	
+	<Imageset Name="login" Filename="login.imageset" />
+	<Imageset Name="help" Filename="help.imageset" />
+	<Imageset Name="place" Filename="place.imageset" />
+	<Imageset Name="over" Filename="over.imageset" />	
+	<Imageset Name="checkesc" Filename="checkesc.imageset" />
+	<Font Name="Tahoma-12" Filename="tahoma-12.font" />
+	<Font Name="Tahoma-10" Filename="tahoma-10.font" />
+	<Font Name="courbd-10" Filename="courbd-10.font" />
+	<Font Name="courbd-12" Filename="courbd-12.font" />	
+	<Font Name="grade" Filename="grade.font" />
+	<WindowSet Filename="CEGUIGUIConfig">
+		<WindowFactory Name="GUIConfig/ProgressBar" />
+		<WindowFactory Name="GUIConfig/Button" />
+		<WindowFactory Name="GUIConfig/Editbox" />
+		<WindowFactory Name="GUIConfig/Listbox" />
+		<WindowFactory Name="GUIConfig/StaticImage" />
+		<WindowFactory Name="GUIConfig/StaticText" />		
+		<WindowFactory Name="GUIConfig/HorizontalScrollbar" />			
+		<WindowFactory Name="GUIConfig/HorizontalScrollbarThumb" />	
+		<WindowFactory Name="GUIConfig/VerticalScrollbar" />		
+		<WindowFactory Name="GUIConfig/VerticalScrollbarThumb" />
+		<WindowFactory Name="GUIConfig/FrameWindow" />
+	</WindowSet>
+</GUIScheme>

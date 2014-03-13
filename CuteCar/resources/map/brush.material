@@ -1,0 +1,56 @@
+material brush/brush3
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.894118 0.819608 0.0
+            diffuse 0.894118 0.819608 0.0
+            specular 0.898039 0.898039 0.898039 7000.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+
+material brush/brush1
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.0 0.0 0.0
+            diffuse 0.0 0.0 0.0
+            specular 0.898039 0.898039 0.898039 7700.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+
+material brush/brush4
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.905882 0.905882 0.835294
+            diffuse 0.905882 0.905882 0.835294
+            specular 0.898039 0.898039 0.898039 0.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+
+material brush/brush2
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588235 0.588235 0.588235
+            diffuse 0.588235 0.588235 0.588235
+            specular 0.898039 0.898039 0.898039 16200.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<Imageset Name="meter" Imagefile="meter.png" NativeHorzRes="1920" NativeVertRes="1200" AutoScaled="true">
+	<Image Name="1" XPos="0" YPos="0" Width="240" Height="240" />
+	<Image Name="2" XPos="240" YPos="0" Width="240" Height="240" />
+	<Image Name="3" XPos="480" YPos="0" Width="240" Height="240" />
+	<Image Name="4" XPos="720" YPos="0" Width="240" Height="240" />
+	<Image Name="5" XPos="960" YPos="0" Width="240" Height="240" />
+	<Image Name="6" XPos="1200" YPos="0" Width="240" Height="240" />
+	<Image Name="7" XPos="1440" YPos="0" Width="240" Height="240" />
+	<Image Name="8" XPos="1680" YPos="0" Width="240" Height="240" />
+	<Image Name="9" XPos="0" YPos="240" Width="240" Height="240" />
+	<Image Name="10" XPos="240" YPos="240" Width="240" Height="240" />
+	<Image Name="11" XPos="480" YPos="240" Width="240" Height="240" />
+	<Image Name="12" XPos="720" YPos="240" Width="240" Height="240" />
+	<Image Name="13" XPos="960" YPos="240" Width="240" Height="240" />
+	<Image Name="14" XPos="1200" YPos="240" Width="240" Height="240" />
+	<Image Name="15" XPos="1440" YPos="240" Width="240" Height="240" />
+	<Image Name="16" XPos="1680" YPos="240" Width="240" Height="240" />
+	<Image Name="17" XPos="0" YPos="480" Width="240" Height="240" />
+	<Image Name="18" XPos="240" YPos="480" Width="240" Height="240" />
+	<Image Name="19" XPos="480" YPos="480" Width="240" Height="240" />
+	<Image Name="20" XPos="720" YPos="480" Width="240" Height="240" />
+	<Image Name="21" XPos="960" YPos="480" Width="240" Height="240" />
+	<Image Name="22" XPos="1200" YPos="480" Width="240" Height="240" />
+	<Image Name="23" XPos="1440" YPos="480" Width="240" Height="240" />
+	<Image Name="24" XPos="1680" YPos="480" Width="240" Height="240" />
+	<Image Name="25" XPos="0" YPos="720" Width="240" Height="240" />
+	<Image Name="26" XPos="240" YPos="720" Width="240" Height="240" />
+	<Image Name="27" XPos="480" YPos="720" Width="240" Height="240" />
+	<Image Name="28" XPos="720" YPos="720" Width="240" Height="240" />
+	<Image Name="29" XPos="960" YPos="720" Width="240" Height="240" />
+	<Image Name="30" XPos="1200" YPos="720" Width="240" Height="240" />
+	<Image Name="31" XPos="1440" YPos="720" Width="240" Height="240" />
+	<Image Name="32" XPos="1680" YPos="720" Width="240" Height="240" />
+	<Image Name="33" XPos="0" YPos="960" Width="240" Height="240" />
+	<Image Name="34" XPos="240" YPos="960" Width="240" Height="240" />
+	<Image Name="35" XPos="480" YPos="960" Width="240" Height="240" />
+	<Image Name="36" XPos="720" YPos="960" Width="240" Height="240" />
+	<Image Name="37" XPos="960" YPos="960" Width="240" Height="240" />
+	<Image Name="38" XPos="1200" YPos="960" Width="240" Height="240" />
+	<Image Name="39" XPos="1440" YPos="960" Width="240" Height="240" />
+	<Image Name="40" XPos="1680" YPos="960" Width="240" Height="240" />
+</Imageset>

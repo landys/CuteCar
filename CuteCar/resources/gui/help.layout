@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUILayout>
+<Window Type="DefaultGUISheet" Name="HelpSheet">
+	<Window Type="GUIConfig/StaticImage" Name="Help">
+		<Property Name="BackgroundEnabled" Value="false" />
+		<Property Name="FrameEnabled" Value="false" />	
+		<Property Name="Image"	Value="set:help image:main"/>
+		<Property Name="UnifiedAreaRect" Value="{{0,0.0},{0,0.0},{1,0.0},{1,0.0}}" />
+		<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+	</Window>
+</Window>
+</GUILayout>

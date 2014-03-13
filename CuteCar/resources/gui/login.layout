@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUILayout>
+<Window Type="DefaultGUISheet" Name="LoginSheet">
+	<Window Type="GUIConfig/StaticImage" Name="Login">
+	<Property Name="BackgroundEnabled" Value="false" />
+	<Property Name="FrameEnabled" Value="false" />	
+	<Property Name="Image"	Value="set:login image:main"/>
+	<Property Name="UnifiedAreaRect" Value="{{0,0.0},{0,0.0},{1,0.0},{1,0.0}}" />
+	<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+		<Window Type="GUIConfig/Editbox" Name="UsrName" >
+			<Property Name="Alpha" Value="1.0" />
+			<Property Name="UnifiedAreaRect" Value="{{0.138671875,0.0},{0.403645833,0.0},{0.461914063,0.0},{0.477864583,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+		</Window>
+		<Window Type="GUIConfig/Button" Name="SpeedMode" >
+			<Property Name="Alpha" Value="1.0" />
+			<Property Name="UnifiedAreaRect" Value="{{0.599609375,0.0},{0.117,0.0},{0.86328125,0.0},{0.247,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+			<Property Name="Text" Value="Race Mode" />
+		</Window>	
+		<Window Type="GUIConfig/Button" Name="DeathMode" >
+			<Property Name="Alpha" Value="1.0" />
+			<Property Name="UnifiedAreaRect" Value="{{0.599609375,0.0},{0.282,0.0},{0.86328125,0.0},{0.412,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+			<Property Name="Text" Value="Dead Mode" />
+		</Window>
+		<Window Type="GUIConfig/Button" Name="Help" >
+			<Property Name="Alpha" Value="1.0" />
+			<Property Name="UnifiedAreaRect" Value="{{0.599609375,0.0},{0.447,0.0},{0.86328125,0.0},{0.577,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+			<Property Name="Text" Value="Help" />
+		</Window>
+		<Window Type="GUIConfig/Button" Name="Place" >
+			<Property Name="Alpha" Value="1.0" />
+			<Property Name="UnifiedAreaRect" Value="{{0.599609375,0.0},{0.612,0.0},{0.86328125,0.0},{0.742,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+			<Property Name="Text" Value="Grade" />
+		</Window>
+		<Window Type="GUIConfig/Button" Name="Quit" >
+			<Property Name="Alpha" Value="1.0" />
+			<Property Name="BackgroundEnabled" Value="true" />
+			<Property Name="FrameEnabled" Value="true" />
+			<Property Name="UnifiedAreaRect" Value="{{0.599609375,0.0},{0.777,0.0},{0.86328125,0.0},{0.907,0.0}}" />
+			<Property Name="UnifiedMaxSize" Value="{{1.0,0.000000},{1.0,0.000000}}" />	
+			<Property Name="Text" Value="Quit" />
+		</Window>
+	</Window>
+</Window>
+</GUILayout>

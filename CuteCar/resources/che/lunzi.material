@@ -1,0 +1,28 @@
+material fwheel/wiamian
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.145098 0.145098 0.145098
+            diffuse 0.145098 0.145098 0.145098
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+
+material fwheel/limian
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.764706 0.764706 0.764706
+            diffuse 0.764706 0.764706 0.764706
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+

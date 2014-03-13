@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Imageset Name="digit" Imagefile="digit.png" NativeHorzRes="905" NativeVertRes="69" AutoScaled="true">
+	<Image Name="1" XPos="0" YPos="0" Width="70" Height="69" />
+	<Image Name="2" XPos="70" YPos="0" Width="70" Height="69" />
+	<Image Name="3" XPos="140" YPos="0" Width="70" Height="69" />
+	<Image Name="4" XPos="210" YPos="0" Width="70" Height="69" />
+	<Image Name="5" XPos="280" YPos="0" Width="70" Height="69" />
+	<Image Name="6" XPos="350" YPos="0" Width="70" Height="69" />
+	<Image Name="7" XPos="420" YPos="0" Width="70" Height="69" />
+	<Image Name="8" XPos="490" YPos="0" Width="70" Height="69" />
+	<Image Name="9" XPos="560" YPos="0" Width="70" Height="69" />
+	<Image Name="0" XPos="630" YPos="0" Width="70" Height="69" />
+	<Image Name="unit" XPos="700" YPos="0" Width="205" Height="69" />
+</Imageset>

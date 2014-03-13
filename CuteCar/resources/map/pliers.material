@@ -1,0 +1,27 @@
+material pliers/qiankou
+{
+    technique
+    {
+        pass
+        {
+						ambient 0.992157 0.8 0.0313726
+            diffuse 0.992157 0.8 0.0313726
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+
+material pliers/bazi
+{
+    technique
+    {
+        pass
+        {
+						ambient 0.660156 0.246094 0.292969
+            diffuse 0.660156 0.246094 0.292969
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<GUIScheme Name="GUIConfigWidgetAlias">
+	<WindowAlias Alias="GUIConfig ProgressBar" Target="GUIConfig/ProgressBar" />
+	<WindowAlias Alias="GUIConfig Button" Target="GUIConfig/Button"  />
+	<WindowAlias Alias="GUIConfig Editbox" Target="GUIConfig/Editbox" />
+	<WindowAlias Alias="GUIConfig Listbox" Target="GUIConfig/Listbox" />
+	<WindowAlias Alias="GUIConfig Menubar" Target="GUIConfig/Menubar" />
+	<WindowAlias Alias="GUIConfig MenuItem" Target="GUIConfig/MenuItem" />
+	<WindowAlias Alias="GUIConfig StaticImage" Target="GUIConfig/StaticImage" />
+	<WindowAlias Alias="GUIConfig StaticText" Target="GUIConfig/StaticText" />
+	<WindowAlias Alias="GUIConfig Tooltip" Target="GUIConfig/Tooltip" />
+	<WindowAlias Alias="GUIConfig VUMeter" Target="GUIConfig/ProgressBar" />
+</GUIScheme>

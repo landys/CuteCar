@@ -1,0 +1,56 @@
+material fcar/cheti
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.898039 0.0 0.0
+            diffuse 0.898039 0.0 0.0
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+
+material fcar/chetiti
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.988235 1.0 0.0
+            diffuse 0.988235 1.0 0.0
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+
+material fcar/tititi
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.760784 0.0 0.0
+            diffuse 0.760784 0.0 0.0
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+
+material fcar/CRISTAL
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.0 0.0 0.0
+            diffuse 0.0509804 0.196078 0.00392157
+            specular 0.988235 0.988235 0.988235 10000.0
+            emissive 0.0 0.0 0.0
+        }
+    }
+}
+
